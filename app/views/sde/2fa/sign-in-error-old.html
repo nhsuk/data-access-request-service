@@ -95,7 +95,13 @@ Go back</a>
     <div class="nhsuk-error-summary__body">
       <ul class="nhsuk-list nhsuk-error-summary__list" role="list">
         <li>
+          <a href="#name">You must enter an email address</a>
+        </li>
+        <li>
           <a href="#name">Your email address or password is invalid</a>
+        </li>
+        <li>
+          <a href="#name">You must enter a password</a>
         </li>
       </ul>
     </div>
@@ -111,6 +117,9 @@ Sign in
     Email address
   </label>
   <span class="nhsuk-error-message" id="name-error">
+    <span class="nhsuk-u-visually-hidden">Error:</span> You must enter an email address
+  </span>
+  <span class="nhsuk-error-message" id="name-error">
     <span class="nhsuk-u-visually-hidden">Error:</span> Your email address or password is invalid
   </span>
   <input class="nhsuk-input nhsuk-input--error" id="name" name="name" type="text" aria-describedby="name-error">
@@ -121,6 +130,9 @@ Sign in
   <label class="nhsuk-label" for="name">
     Password
   </label>
+  <span class="nhsuk-error-message" id="name-error">
+    <span class="nhsuk-u-visually-hidden">Error:</span> You must enter a password
+  </span>
   <span class="nhsuk-error-message" id="name-error">
     <span class="nhsuk-u-visually-hidden">Error:</span> Your email address or password is invalid
   </span>
